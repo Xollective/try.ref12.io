@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Codex</title>
+        <!--<base href="." />-->
+
+        <!-- Load main js file which ensures headers are provided for using SharedArrayBuffer -->
+        <!--<script type="text/javascript" src="main.js"></script>-->
+        <script type="module" src="/ts/js/boot.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+
+        <link href="/css/app.css" rel="stylesheet" />
+
+        <link href="/content/body.css" rel="stylesheet" />
+        <link href="/content/results.css" rel="stylesheet" />
+        <link href="/content/styles.css" rel="stylesheet" />
+        <link href="/content/header.css" rel="stylesheet" />
+        <link href="/content/dark.css" rel="stylesheet" media="(prefers-color-scheme: dark)" />
+
+        <link rel="modulepreload" href="/main.js" />
+        <link rel="modulepreload" href="/dotnet.js" />
+    </head>
+
+<body onload="onBodyLoad();">
+    <div class="header">
+        <span id="searchBoxAndImages">
+            <input type="text"
+                   name="name"
+                   maxlength="260"
+                   id="search-box"
+                   value=""
+                   tabindex="1"
+                   disabled />
+            <a id="logoText" href="?rightMode=overview"><img src="/content/images/logo-no-background.svg" /></a>
+            <span id="headerMenu">
+                <a id="sponsorButtonLink" target="_blank" href="https://github.com/sponsors/Ref12"><img src="/content/images/sponsor.svg" /></a>
+                <a id="helpButtonLink" class="headerText" target="_blank" href="https://github.com/Ref12/Home">Help</a>
+                <a id="loginButtonLink" class="headerText" href="/.auth/login/github">Login</a>
+            </span>
+        </span>
+    </div>
+
+    <div id="main">
+        <div id="leftPane">
+            <div id="leftPaneContent">
+
+            </div>
+        </div>
+
+        <div id="rightPane">
+        </div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script type="text/javascript" src="/bundles/modernizr.js"></script>
+    <!--<script type="text/javascript" src="/bundles/jquery.js"></script>-->
+    <script type="text/javascript" src="/bundles/header.js"></script>
+    <script src="/ts/js/ipc.js"></script>
+    <script src="/ts/js/definitions.js"></script>
+    <script src="/ts/js/page.main.js"></script>
+
+    <script type='module' src="/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+https://ref12previewwest.azurewebsites.net?
+
+https://ref12previewwest.blob.core.windows.net/runtimeindex
+
+index

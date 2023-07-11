@@ -1,0 +1,2068 @@
+{
+  "mainAssemblyName": "Codex.Web.Wasm.dll",
+  "assemblyRootFolder": "managed",
+  "debugLevel": -1,
+  "assets": [
+    {
+      "behavior": "assembly",
+      "name": "Azure.Core.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Azure.Storage.Blobs.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Azure.Storage.Common.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Azure.Storage.Files.Shares.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Basic.CompilerLog.Util.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "CommandLine.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "CommunityToolkit.HighPerformance.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "CommunityToolkit.HighPerformance.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "DotNext.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "DotNext.Unsafe.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Language.Xml.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Humanizer.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "ICSharpCode.Decompiler.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "J2N.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "K4os.Compression.LZ4.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "LibGit2Sharp.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "LibGit2Sharp.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "MessagePack.Annotations.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Http.Formatting.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Bcl.AsyncInterfaces.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Build.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Build.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Build.Framework.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Build.Framework.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Build.Locator.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Build.Tasks.Core.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Build.Tasks.Core.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Build.Utilities.Core.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Build.Utilities.Core.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.AnalyzerUtilities.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.CSharp.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.CSharp.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Elfie.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Features.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Features.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Scripting.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Scripting.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Workspaces.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Workspaces.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.DiaSymReader.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.DiaSymReader.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Configuration.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Configuration.Abstractions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Configuration.FileExtensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Configuration.Json.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Configuration.UserSecrets.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.FileProviders.Abstractions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.FileProviders.Physical.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.FileSystemGlobbing.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Extensions.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.NET.StringTools.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.NET.StringTools.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Azure.DevOps.Comments.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.Build2.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.Core.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.Dashboards.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.Policy.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.SourceControl.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.Test.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.TestManagement.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.Wiki.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.Work.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.WorkItemTracking.Process.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.VisualStudio.Services.TestManagement.TestPlanning.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.VisualStudio.Services.TestResults.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.TeamFoundation.Common.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.VisualStudio.Services.Common.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.VisualStudio.Services.WebApi.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Win32.SystemEvents.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Mono.Cecil.Mdb.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Mono.Cecil.Mdb.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Mono.Cecil.Pdb.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Mono.Cecil.Pdb.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Mono.Cecil.Rocks.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Mono.Cecil.Rocks.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Mono.Cecil.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Mono.Cecil.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "StructuredLogger.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Newtonsoft.Json.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Newtonsoft.Json.Bson.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "MessagePack.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "RocksDbNative.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "RocksDbSharp.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "RuntimeContracts.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "ICSharpCode.SharpZipLib.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "ICSharpCode.SharpZipLib.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.CodeDom.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Composition.AttributedModel.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Composition.Convention.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Composition.Hosting.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Composition.Runtime.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Composition.TypedParts.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Configuration.ConfigurationManager.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Data.SqlClient.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Drawing.Common.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.Hashing.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.Pipelines.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Linq.Async.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Memory.Data.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Resources.Extensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.Pkcs.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.ProtectedData.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.Xml.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Permissions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.Encodings.Web.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.Json.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Windows.Extensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.XPath.XmlDocument.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "ZstdNet.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CSharp.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.VisualBasic.Core.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.VisualBasic.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Win32.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.Win32.Registry.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.AppContext.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Buffers.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Collections.Concurrent.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Collections.Immutable.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Collections.NonGeneric.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Collections.Specialized.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Collections.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ComponentModel.Annotations.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ComponentModel.DataAnnotations.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ComponentModel.EventBasedAsync.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ComponentModel.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ComponentModel.TypeConverter.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ComponentModel.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Configuration.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Console.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Core.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Data.Common.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Data.DataSetExtensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Data.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.Contracts.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.Debug.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.DiagnosticSource.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.FileVersionInfo.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.Process.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.StackTrace.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.TextWriterTraceListener.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.Tools.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.TraceSource.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Diagnostics.Tracing.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Drawing.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Drawing.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Dynamic.Runtime.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Formats.Asn1.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Formats.Tar.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Globalization.Calendars.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Globalization.Extensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Globalization.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.Compression.Brotli.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.Compression.FileSystem.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.Compression.ZipFile.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.Compression.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.FileSystem.AccessControl.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.FileSystem.DriveInfo.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.FileSystem.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.FileSystem.Watcher.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.FileSystem.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.IsolatedStorage.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.MemoryMappedFiles.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.Pipes.AccessControl.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.Pipes.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.UnmanagedMemoryStream.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.IO.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Linq.Expressions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Linq.Parallel.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Linq.Queryable.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Linq.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Memory.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Http.Json.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Http.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.HttpListener.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Mail.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.NameResolution.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.NetworkInformation.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Ping.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Quic.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Requests.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Security.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.ServicePoint.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Sockets.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.WebClient.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.WebHeaderCollection.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.WebProxy.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.WebSockets.Client.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.WebSockets.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Numerics.Vectors.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Numerics.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ObjectModel.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Private.DataContractSerialization.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Private.Uri.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Private.Xml.Linq.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Private.Xml.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.DispatchProxy.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.Emit.ILGeneration.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.Emit.Lightweight.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.Emit.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.Extensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.Metadata.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.TypeExtensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Reflection.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Resources.Reader.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Resources.ResourceManager.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Resources.Writer.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.CompilerServices.Unsafe.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.CompilerServices.VisualC.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Extensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Handles.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.InteropServices.JavaScript.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.InteropServices.RuntimeInformation.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.InteropServices.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Intrinsics.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Loader.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Numerics.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Serialization.Formatters.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Serialization.Json.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Serialization.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Serialization.Xml.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.Serialization.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.AccessControl.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Claims.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.Algorithms.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.Cng.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.Csp.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.Encoding.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.OpenSsl.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.X509Certificates.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Principal.Windows.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Principal.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.SecureString.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ServiceModel.Web.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ServiceProcess.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.Encoding.CodePages.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.Encoding.Extensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.Encoding.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Text.RegularExpressions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.Channels.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.Overlapped.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.Tasks.Dataflow.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.Tasks.Extensions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.Tasks.Parallel.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.Tasks.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.Thread.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.ThreadPool.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.Timer.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Transactions.Local.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Transactions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.ValueTuple.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Web.HttpUtility.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Web.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Windows.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.Linq.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.ReaderWriter.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.Serialization.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.XDocument.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.XPath.XDocument.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.XPath.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.XmlDocument.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.XmlSerializer.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Xml.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "WindowsBase.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "mscorlib.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "netstandard.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Private.CoreLib.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Analysis.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Analysis.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Analysis.External.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Analysis.External.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Analysis.Managed.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Analysis.Managed.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Lucene.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Lucene.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.ObjectModel.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.ObjectModel.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Sdk.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Sdk.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Storage.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Storage.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Web.Common.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Web.Common.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.Analysis.Common.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.Analysis.Common.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.Highlighter.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.Highlighter.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.Memory.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.Memory.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.Queries.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.Queries.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.QueryParser.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.QueryParser.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.Sandbox.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Lucene.Net.Sandbox.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Perspectil.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Perspectil.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "ZoneTree.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "ZoneTree.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Web.Wasm.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Codex.Web.Wasm.pdb"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Features.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Features.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll"
+    },
+    {
+      "virtualPath": "runtimeconfig.bin",
+      "behavior": "vfs",
+      "name": "supportFiles/0_runtimeconfig.bin"
+    },
+    {
+      "virtualPath": "dotnet.js.symbols",
+      "behavior": "vfs",
+      "name": "supportFiles/1_dotnet.js.symbols"
+    },
+    {
+      "loadRemote": false,
+      "behavior": "icu",
+      "name": "icudt.dat"
+    },
+    {
+      "virtualPath": "/usr/share/zoneinfo/",
+      "behavior": "vfs",
+      "name": "dotnet.timezones.blat"
+    },
+    {
+      "behavior": "dotnetwasm",
+      "name": "dotnet.wasm"
+    },
+    {
+      "behavior": "js-module-threads",
+      "name": "dotnet.worker.js"
+    }
+  ],
+  "remoteSources": [],
+  "pthreadPoolSize": 10
+}
