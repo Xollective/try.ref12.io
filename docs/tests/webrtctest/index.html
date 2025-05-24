@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebRTC Direct Connection Test</title>
+</head>
+<body>
+  <h2>WebRTC Direct Connection Test</h2>
+
+  <textarea id="localOffer" placeholder="Local Offer / Answer" rows="6" cols="60"></textarea><br>
+  <button id="createOffer">Create Offer</button>
+
+  <textarea id="remoteAnswer" placeholder="Paste remote Offer / Answer here" rows="6" cols="60"></textarea><br>
+  <button id="setRemoteDesc">Set Remote Description</button>
+
+  <pre id="log"></pre>
+
+  <script>
+    let pc = new RTCPeerConnection({
+      iceServers: [{ urls: "stun:stun.l.google.com:19302" }]
+    });
+
+    pc.onicecandidate = e => {
+      if (e.candidate) {
+        log("New ICE candidate: " + JSON.stringify(e.candidate));
+      }
+    };
+
+    pc.onconnectionstatechange = () => {
+      log("Connection state: " + pc.connectionState);
+    };
+
+    pc.oniceconnectionstatechange = () => {
+      log("ICE connection state: " + pc.iceConnectionState);
+    };
+
+    // Create a dummy data channel so negotiation starts
+    const dataChannel = pc.createDataChannel("test");
+
+    dataChannel.onopen = () => {
+      log("Data channel open!");
+      dataChannel.send("Hello from peer!");
+    };
+
+    dataChannel.onmessage = e => {
+      log("Received message: " + e.data);
+    };
+
+    document.getElementById("createOffer").onclick = async () => {
+      const offer = await pc.createOffer();
+      await pc.setLocalDescription(offer);
+      document.getElementById("localOffer").value = JSON.stringify(pc.localDescription);
+      log("Created offer, set as local description");
+    };
+
+    document.getElementById("setRemoteDesc").onclick = async () => {
+      try {
+        const remoteDesc = JSON.parse(document.getElementById("remoteAnswer").value);
+        await pc.setRemoteDescription(remoteDesc);
+        log("Remote description set");
+
+        if (remoteDesc.type === "offer") {
+          const answer = await pc.createAnswer();
+          await pc.setLocalDescription(answer);
+          document.getElementById("localOffer").value = JSON.stringify(pc.localDescription);
+          log("Created answer, set as local description");
+        }
+      } catch (err) {
+        log("Error setting remote description: " + err);
+      }
+    };
+
+    function log(msg) {
+      const pre = document.getElementById("log");
+      pre.textContent += msg + "\n";
+      console.log(msg);
+    }
+  </script>
+</body>
+</html>
